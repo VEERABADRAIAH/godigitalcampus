@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Employee</title>
+</head>
+
+<body>
+  <h2>Edit Employee</h2>
+  <form id="editEmployeeForm">
+    <input type="hidden" id="employeeId" name="employeeId">
+    <label for="employeeName">Name:</label>
+    <input type="text" id="employeeName" name="employeeName" required>
+    <br>
+    <label for="designation">Designation:</label>
+    <input type="text" id="designation" name="designation" required>
+    <br>
+    <label for="employeeEmail">Email:</label>
+    <input type="email" id="employeeEmail" name="employeeEmail" required>
+    <br>
+    <label for="employeePhone">Phone:</label>
+    <input type="text" id="employeePhone" name="employeePhone" required>
+    <br>
+    <label for="employeeAddress">Address:</label>
+    <textarea id="employeeAddress" name="employeeAddress" required></textarea>
+    <br>
+    <button type="button" id="updateEmployeeButton">Update</button>
+  </form>
+  <script>
+    // Fetch employee data to populate the form
+    async function fetchEmployeeDetails(employeeId) {
+      try {
+        const response = await fetch(`get_employee.php?employeeId=${employeeId}`);
+        const result = await response.json();
+        if (result.status === 'success') {
+          const employee = result.data;
+          document.getElementById('employeeId').value = employee.employee_id;
+          document.getElementById('employeeName').value = employee.name;
+          document.getElementById('designation').value = employee.designation;
+          document.getElementById('employeeEmail').value = employee.email;
+          document.getElementById('employeePhone').value = employee.phone;
+          document.getElementById('employeeAddress').value = employee.address;
+        } else {
+          alert(`Error: ${result.message}`);
+        }
+      } catch (error) {
+        console.error('Error fetching employee details:', error);
+      }
+    }
+
+    // Update employee data
+    async function updateEmployee() {
+      const formData = new FormData(document.getElementById('editEmployeeForm'));
+      try {
+        const response = await fetch('update_employee.php', {
+          method: 'POST',
+          body: formData,
+        });
+        const result = await response.json();
+        if (result.status === 'success') {
+          alert(result.message);
+          window.location.href = 'home.html'; // Redirect back to home page
+        } else {
+          alert(`Error: ${result.message}`);
+        }
+      } catch (error) {
+        console.error('Error updating employee:', error);
+      }
+    }
+
+    document.getElementById('updateEmployeeButton').addEventListener('click', updateEmployee);
+
+    // Load employee data when the page loads
+    const urlParams = new URLSearchParams(window.location.search);
+    const employeeId = urlParams.get('employeeId');
+    if (employeeId) fetchEmployeeDetails(employeeId);
+  </script>
+</body>
+
+</html>

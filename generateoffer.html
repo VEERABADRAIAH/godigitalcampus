@@ -1,0 +1,310 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Onboarding Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+<body class="bg-gray-100 font-roboto">
+    <div class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-lg mt-10">
+        <h1 class="text-2xl font-bold mb-6 text-center">HR Onboarding Form for DigiSphere Solutions Private Limited</h1>
+        
+        <form id="onboardingForm">
+            <!-- Employee Information -->
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold mb-4">Employee Information</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Full Name (as per ID):</label>
+                        <input type="text" id="fullName" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Preferred Name:</label>
+                        <input type="text" id="preferredName" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Date of Birth (DD/MM/YYYY):</label>
+                        <input type="text" id="dob" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Aadhaar Number:</label>
+                        <input type="text" id="aadhaar" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">PAN Number:</label>
+                        <input type="text" id="pan" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Address:</label>
+                        <input type="text" id="address" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Phone Number:</label>
+                        <input type="text" id="phone" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Email Address:</label>
+                        <input type="email" id="email" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Emergency Contact Name:</label>
+                        <input type="text" id="emergencyContactName" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Emergency Contact Phone Number:</label>
+                        <input type="text" id="emergencyContactPhone" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Relationship to Emergency Contact:</label>
+                        <input type="text" id="relationship" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Position Information -->
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold mb-4">Position Information</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Job Title:</label>
+                        <input type="text" id="jobTitle" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Department:</label>
+                        <input type="text" id="department" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Start Date (DD/MM/YYYY):</label>
+                        <input type="text" id="startDate" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Supervisor's Name:</label>
+                        <input type="text" id="supervisorName" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Work Location:</label>
+                        <input type="text" id="workLocation" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tax and Payroll Information -->
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold mb-4">Tax and Payroll Information</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Bank Name:</label>
+                        <input type="text" id="bankName" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Account Number:</label>
+                        <input type="text" id="accountNumber" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">IFSC Code:</label>
+                        <input type="text" id="ifscCode" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Tax Filing Status (Single/Married/Other):</label>
+                        <input type="text" id="taxStatus" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Number of Allowances:</label>
+                        <input type="number" id="allowances" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefits Enrollment -->
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold mb-4">Benefits Enrollment</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Health Insurance Plan Preference:</label>
+                        <input type="text" id="healthInsurance" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Provident Fund Enrollment (Yes/No):</label>
+                        <input type="text" id="providentFund" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Other Benefits (e.g., dental, vision):</label>
+                        <input type="text" id="otherBenefits" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Acknowledgments -->
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold mb-4">Acknowledgments</h2>
+                <div class="grid grid-cols-1 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">I acknowledge that I have received the Employee Handbook and understand the company policies.</label>
+                        <div class="mt-1 flex items-center">
+                            <span class="mr-2">Signature:</span>
+                            <input type="text" id="ackSignature" class="flex-1 border border-gray-300 rounded-md shadow-sm p-2" required>
+                        </div>
+                        <div class="mt-1 flex items-center">
+                            <span class="mr-2">Date:</span>
+                            <input type="text" id="ackDate" class="flex-1 border border-gray-300 rounded-md shadow-sm p-2" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">I consent to the collection and processing of my personal data as per the company’s privacy policy.</label>
+                        <div class="mt-1 flex items-center">
+                            <span class="mr-2">Signature:</span>
+                            <input type="text" id="consentSignature" class="flex-1 border border-gray-300 rounded-md shadow-sm p-2" required>
+                        </div>
+                        <div class="mt-1 flex items-center">
+                            <span class="mr-2">Date:</span>
+                            <input type="text" id="consentDate" class="flex-1 border border-gray-300 rounded-md shadow-sm p-2" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Notes or Comments -->
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold mb-4">Additional Notes or Comments</h2>
+                <textarea id="additionalNotes" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" rows="4"></textarea>
+            </div>
+
+            <!-- HR Use Only -->
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold mb-4">HR Use Only</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Form Received By:</label>
+                        <input type="text" id="formReceivedBy" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Date Received:</label>
+                        <input type="text" id="dateReceived" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Employee ID:</label>
+                        <input type="text" id="employeeId" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Notes:</label>
+                        <textarea id="hrNotes" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" rows="4"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button type="button" onclick="generatePDF()" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-md shadow-md hover:bg-blue-600">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function generatePDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            const fullName = document.getElementById('fullName').value;
+            const preferredName = document.getElementById('preferredName').value;
+            const dob = document.getElementById('dob').value;
+            const aadhaar = document.getElementById('aadhaar').value;
+            const pan = document.getElementById('pan').value;
+            const address = document.getElementById('address').value;
+            const phone = document.getElementById('phone').value;
+            const email = document.getElementById('email').value;
+            const emergencyContactName = document.getElementById('emergencyContactName').value;
+            const emergencyContactPhone = document.getElementById('emergencyContactPhone').value;
+            const relationship = document.getElementById('relationship').value;
+            const jobTitle = document.getElementById('jobTitle').value;
+            const department = document.getElementById('department').value;
+            const startDate = document.getElementById('startDate').value;
+            const supervisorName = document.getElementById('supervisorName').value;
+            const workLocation = document.getElementById('workLocation').value;
+            const bankName = document.getElementById('bankName').value;
+            const accountNumber = document.getElementById('accountNumber').value;
+            const ifscCode = document.getElementById('ifscCode').value;
+            const taxStatus = document.getElementById('taxStatus').value;
+            const allowances = document.getElementById('allowances').value;
+            const healthInsurance = document.getElementById('healthInsurance').value;
+            const providentFund = document.getElementById('providentFund').value;
+            const otherBenefits = document.getElementById('otherBenefits').value;
+            const ackSignature = document.getElementById('ackSignature').value;
+            const ackDate = document.getElementById('ackDate').value;
+            const consentSignature = document.getElementById('consentSignature').value;
+            const consentDate = document.getElementById('consentDate').value;
+            const additionalNotes = document.getElementById('additionalNotes').value;
+            const formReceivedBy = document.getElementById('formReceivedBy').value;
+            const dateReceived = document.getElementById('dateReceived').value;
+            const employeeId = document.getElementById('employeeId').value;
+            const hrNotes = document.getElementById('hrNotes').value;
+
+            const offerLetter = `
+DigiSphere Solutions Private Limited
+Flat No: 8355, Janapriya M Ashok Marg
+Erragadda, Hyderabad - 50018
+Phone: 9618500183
+Email: info@godigitalcampus.com
+Website: godigitalcampus.com
+
+${new Date().toLocaleDateString()}
+
+${fullName}
+${address}
+
+Subject: Internship Offer Letter
+
+Dear ${fullName},
+
+We are delighted to offer you the position of Intern at DigiSphere Solutions Private Limited. Your skills, enthusiasm, and potential impressed us, and we are confident that you will make a meaningful contribution to our team.
+
+Position Details:
+- Position: Intern
+- Department: ${department}
+- Reporting To: ${supervisorName}
+- Start Date: ${startDate}
+- Duration: [Duration, e.g., 3 months, 6 months]
+
+Compensation:
+You will receive a monthly stipend of ₹8,000 (Rupees Eight Thousand Only) during your internship period. The stipend will be disbursed on a monthly basis, subject to applicable deductions as per company policy.
+
+Work Hours:
+Your regular working hours will be from [Start Time] to [End Time], [Days of the Week]. Flexibility may be required based on project needs, with prior communication and agreement.
+
+Responsibilities:
+During your internship, your primary responsibilities will include, but are not limited to:
+- [Responsibility 1]
+- [Responsibility 2]
+- [Responsibility 3]
+
+Confidentiality:
+As part of your role, you may have access to sensitive and proprietary information belonging to DigiSphere Solutions Private Limited. You are required to maintain strict confidentiality and not disclose any information to unauthorized parties during or after your internship.
+
+In the event of a breach of confidentiality, including the unauthorized use, access, or sharing of sensitive data, you will be held accountable and may face appropriate legal actions as per company policies and applicable laws. This includes liability for any damages caused by such a breach.
+
+Acceptance of Offer:
+To confirm your acceptance of this offer, please sign and return a copy of this letter by [Acceptance Deadline]. If you have any questions or require further clarification, do not hesitate to reach out to us at 9618500183 or info@godigitalcampus.com.
+
+We are excited to welcome you to our team and look forward to seeing your contributions at DigiSphere Solutions Private Limited.
+
+Warm regards,
+
+[Your Name]
+[Your Job Title]
+DigiSphere Solutions Private Limited
+
+Acknowledgment and Acceptance
+
+I, ${fullName}, accept the internship offer at DigiSphere Solutions Private Limited as outlined in this letter.
+
+Signature: ___________________________
+Date: _______________________________
+`;
+
+            doc.text(offerLetter, 10, 10);
+            doc.save('offer_letter.pdf');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+[29-Dec-2024 17:46:53 UTC] PHP Warning:  move_uploaded_file(uploads/1. Notification for recognition of eligible supervisors.pdf): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/upload.php on line 47
+[29-Dec-2024 17:46:53 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php2BzVYu' to 'uploads/1. Notification for recognition of eligible supervisors.pdf' in /home/ppcwbgto/public_html/upload.php on line 47
+[29-Dec-2024 17:48:00 UTC] PHP Warning:  move_uploaded_file(uploads/1. Notification for recognition of eligible supervisors.pdf): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/upload.php on line 47
+[29-Dec-2024 17:48:00 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpcKCw8t' to 'uploads/1. Notification for recognition of eligible supervisors.pdf' in /home/ppcwbgto/public_html/upload.php on line 47
+[29-Dec-2024 17:49:00 UTC] PHP Warning:  move_uploaded_file(uploads/July -Research  Incentives-2023.docx): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/upload.php on line 47
+[29-Dec-2024 17:49:00 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpyLJEW5' to 'uploads/July -Research  Incentives-2023.docx' in /home/ppcwbgto/public_html/upload.php on line 47
+[01-Jan-2025 11:47:57 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/ppcwbgto/public_html/login.php on line 3
+[01-Jan-2025 11:47:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/login.php on line 13
+[01-Jan-2025 11:56:00 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/ppcwbgto/public_html/login.php on line 3
+[01-Jan-2025 11:56:00 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/login.php on line 13
+[01-Jan-2025 12:26:01 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:26:01 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:26:01 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:26:12 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:26:12 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:26:12 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:26:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 7
+[01-Jan-2025 12:26:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 8
+[01-Jan-2025 12:26:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 9
+[01-Jan-2025 12:26:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 10
+[01-Jan-2025 12:26:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 18
+[01-Jan-2025 12:26:12 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 21
+[01-Jan-2025 12:26:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 25
+[01-Jan-2025 12:32:38 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:32:38 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:32:38 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:32:38 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 7
+[01-Jan-2025 12:32:38 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 8
+[01-Jan-2025 12:32:38 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 9
+[01-Jan-2025 12:32:38 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 10
+[01-Jan-2025 12:32:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 18
+[01-Jan-2025 12:32:38 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 21
+[01-Jan-2025 12:32:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 25
+[01-Jan-2025 12:32:43 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:32:43 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:32:43 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:32:43 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 7
+[01-Jan-2025 12:32:43 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 8
+[01-Jan-2025 12:32:43 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 9
+[01-Jan-2025 12:32:43 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 10
+[01-Jan-2025 12:32:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 18
+[01-Jan-2025 12:32:43 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 21
+[01-Jan-2025 12:32:43 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/registration.php on line 25
+[01-Jan-2025 12:32:49 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:32:49 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:32:49 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:34:28 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:34:28 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:34:28 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:34:30 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:34:30 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:34:30 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:35:11 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:35:11 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:35:11 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/registration.php on line 3
+[01-Jan-2025 12:35:18 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/login.php on line 5
+[01-Jan-2025 12:35:18 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/login.php on line 5
+[01-Jan-2025 12:35:18 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/login.php on line 5
+[01-Jan-2025 12:35:35 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/login.php on line 5
+[01-Jan-2025 12:35:35 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/login.php on line 5
+[01-Jan-2025 12:35:35 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/login.php on line 5
+[01-Jan-2025 12:35:35 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/login.php on line 9
+[01-Jan-2025 12:35:35 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/login.php on line 10
+[01-Jan-2025 12:35:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ppcwbgto/public_html/login.php on line 14
+[01-Jan-2025 12:36:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:36:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:37:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:37:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:38:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:38:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:38:56 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:40:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:42:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto@localhost'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:42:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:44:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:46:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:46:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:46:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:47:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ab123'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:48:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:48:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:50:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:52:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: NO) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 12:59:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:00:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:00:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:01:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:01:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:01:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:01:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:01:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:01:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:02:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:02:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:02:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:02:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_ab123'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:04:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:04:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:05:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:06:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_user'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:07:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ppcwbgto_user'@'localhost' to database 'ppcwbgto_user123' in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:09:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:09:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:10:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ppcwbgto_wp156'@'localhost' (using password: YES) in /home/ppcwbgto/public_html/db.php on line 9
+[01-Jan-2025 13:12:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 13:15:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 13:16:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 13:16:47 UTC] PHP Warning:  include(User/user.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/home.php on line 71
+[01-Jan-2025 13:16:47 UTC] PHP Warning:  include(User/user.php): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/home.php on line 71
+[01-Jan-2025 13:16:47 UTC] PHP Warning:  include(): Failed opening 'User/user.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ppcwbgto/public_html/home.php on line 71
+[01-Jan-2025 13:19:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 13:30:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 13:44:11 UTC] PHP Notice:  Undefined index: name in /home/ppcwbgto/public_html/submit-resume.php on line 7
+[01-Jan-2025 13:44:11 UTC] PHP Notice:  Undefined index: email in /home/ppcwbgto/public_html/submit-resume.php on line 8
+[01-Jan-2025 13:47:43 UTC] PHP Notice:  Undefined index: name in /home/ppcwbgto/public_html/submit-resume.php on line 7
+[01-Jan-2025 13:47:43 UTC] PHP Notice:  Undefined index: email in /home/ppcwbgto/public_html/submit-resume.php on line 8
+[01-Jan-2025 13:48:56 UTC] PHP Notice:  Undefined index: name in /home/ppcwbgto/public_html/submit-resume.php on line 7
+[01-Jan-2025 13:48:56 UTC] PHP Notice:  Undefined index: email in /home/ppcwbgto/public_html/submit-resume.php on line 8
+[01-Jan-2025 14:37:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:39:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:39:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:39:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:40:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:46:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:46:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:46:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:46:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:47:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:49:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 27
+[01-Jan-2025 14:49:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 27
+[01-Jan-2025 14:50:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 27
+[01-Jan-2025 14:51:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:53:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 14:58:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 27
+[01-Jan-2025 14:59:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 15:00:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[01-Jan-2025 15:00:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ppcwbgto/public_html/db.php:1) in /home/ppcwbgto/public_html/login.php on line 28
+[03-Jan-2025 12:58:02 UTC] PHP Parse error:  syntax error, unexpected ''<span class="welcome">!</span' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /home/ppcwbgto/public_html/home.php on line 45
+[03-Jan-2025 12:58:13 UTC] PHP Parse error:  syntax error, unexpected ''<span class="welcome">!</span' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /home/ppcwbgto/public_html/home.php on line 45
+[03-Jan-2025 12:58:14 UTC] PHP Parse error:  syntax error, unexpected ''<span class="welcome">!</span' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /home/ppcwbgto/public_html/home.php on line 45
+[03-Jan-2025 12:58:15 UTC] PHP Parse error:  syntax error, unexpected ''<span class="welcome">!</span' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /home/ppcwbgto/public_html/home.php on line 45
+[05-Jan-2025 08:35:05 UTC] PHP Warning:  file_get_contents(D:/XAMPP/htdocs/offer letter/logo.jpg): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/send_email.php on line 27
+[05-Jan-2025 08:35:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Dompdf\Options' not found in /home/ppcwbgto/public_html/send_email.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/ppcwbgto/public_html/send_email.php on line 125
+[05-Jan-2025 08:43:00 UTC] PHP Warning:  file_get_contents(D:/XAMPP/htdocs/offer letter/logo.jpg): failed to open stream: No such file or directory in /home/ppcwbgto/public_html/send_email.php on line 27
+[05-Jan-2025 08:43:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Dompdf\Options' not found in /home/ppcwbgto/public_html/send_email.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/ppcwbgto/public_html/send_email.php on line 125
